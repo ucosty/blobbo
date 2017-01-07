@@ -1,7 +1,0 @@
-levelview.o: levelview.cpp ToolUtils.h BlobboGame.h TUIFrontend.h \
-  IFrontend.h SFMLFrontend.h
-ToolUtils.o: ToolUtils.cpp ToolUtils.h
-BlobboGame.o: BlobboGame.cpp BlobboGame.h ToolUtils.h SFMLFrontend.h \
-  IFrontend.h
-TUIFrontend.o: TUIFrontend.cpp TUIFrontend.h IFrontend.h BlobboGame.h
-SFMLFrontend.o: SFMLFrontend.cpp SFMLFrontend.h BlobboGame.h IFrontend.h
